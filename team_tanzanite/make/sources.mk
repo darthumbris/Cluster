@@ -1,0 +1,24 @@
+SOURCES :=	src/boardstate.c \
+	src/check.c \
+	src/cluster.c \
+	src/global.c \
+	src/graphics/animation.c \
+	src/graphics/draw_board.c \
+	src/graphics/draw_ui.c \
+	src/grid/column.c \
+	src/grid/gravity.c \
+	src/grid/initialize.c \
+	src/grid/move.c \
+	src/grid/rotate.c \
+	src/grid/translate.c \
+	src/grid/visualize_text.c \
+	src/grid/winner_test.c \
+	src/input.c \
+	src/loop.c \
+	src/output.c \
+	src/parse.c \
+	src/parsing/ft_split.c \
+	src/parsing/get_next_line.c \
+	src/parsing/get_next_line_utils.c \
+	src/players.c \
+	src/shuffle.c \
