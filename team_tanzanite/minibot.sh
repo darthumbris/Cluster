@@ -36,7 +36,7 @@ do
 	if [ $rvalue -eq $(( 0 - MAXCOLUMN / 2 )) ] || [ $rvalue -eq $(( 0 + MAXCOLUMN / 2 )) ]
 	then
 		let "rvalue = RANDOM % $MAXROTATE + 1"
-		rotate $rvalue $bot1
+		rotate $rvalue $bot2
 	else
 		random_column $rvalue $rcolor $bot2
 	fi

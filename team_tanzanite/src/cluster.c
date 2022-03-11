@@ -6,7 +6,7 @@
 /*   By: ngerrets <ngerrets@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/07 16:04:19 by ngerrets      #+#    #+#                 */
-/*   Updated: 2022/03/11 10:49:05 by ngerrets      ########   odam.nl         */
+/*   Updated: 2022/03/11 12:11:30 by shoogenb      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,7 +94,9 @@ static void	_player_io(t_cluster *cluster)
 		|| cluster->player[0].io[2] < 0 || cluster->player[1].io[2] < 0)
 	{
 		perror("Error");
+		exit(1);
 		cluster_clean(cluster);
+		
 	}
 	cluster->player[0].how_verbose = 1;
 	cluster->player[1].how_verbose = 1;
